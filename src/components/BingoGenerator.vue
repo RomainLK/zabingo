@@ -12,11 +12,7 @@
       </button>
     </div>
 
-      <canvas
-      class="d-inline"
-        ref="bingoCanvas"
-        v-on:click="mouseClick"
-      ></canvas>
+    <canvas class="d-inline" ref="bingoCanvas" v-on:click="mouseClick"></canvas>
 
     <div class="mb-5">
       <button type="button" class="btn btn-danger mr-2" @click="generate(null)">
@@ -33,13 +29,13 @@
 </template>
 <script>
 import axios from "axios";
+import { ReImg } from "@/libs/ReImg";
 
 export default {
   async mounted() {
     const configName = this.searchParams.get("c");
     const { data } = await axios.get(`bingos/${configName}.json`);
     this.bingoConfig = data;
-    console.log(this.bingoConfig);
     // window.addEventListener("beforeunload", this.preventNav);
     // this.$once("hook:beforeDestroy", () => {
     //   window.removeEventListener("beforeunload", this.preventNav);
@@ -258,10 +254,7 @@ export default {
       }
     },
     download() {
-      var image = this.$refs.bingoCanvas
-        .toDataURL("image/png")
-        .replace("image/png", "image/octet-stream");
-      window.location.href = image;
+      ReImg.fromCanvas(this.$refs.bingoCanvas).downloadPng("bingo.png");
     },
   },
 };
