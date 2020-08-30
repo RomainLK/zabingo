@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <bingo-generator/>
+    <footer class="text-center mb-4">
+      Zabingo by Merun
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BingoGenerator from './components/BingoGenerator.vue'
+import '@/styles/main.scss'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BingoGenerator
   }
 }
 </script>
