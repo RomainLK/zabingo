@@ -1,6 +1,6 @@
 {
   "img": "nvidia2020.jpg",
-  "freeTile": [ "Nvidia" ],
+  "freeTile": [ "1st September" ],
   "lines": [
     "TDP 350W+",
     "$1999+",
@@ -18,16 +18,24 @@
     "DLSS 3.0",
     "Titan announced",
     "Quadro announced",
-    "Jensen @ Home",
+    "Jensen at Home",
     "XXX was WRONG!",
     "Dedicated raytracing chip",
     "Cyberpunk 2077 demo",
     "Upgrade your PSU to 800W+",
     "Collector Edition!",
-    "5376 Cores",
-    "21 TFLOP"
+    "Founders edition",
+    "5248 Cores",
+    "21+ TFLOP",
+    "TI/Super branding",
+    "New video encoder/decoder",
+    "NVcache",
+    "Memory Compression",
+    "New proprietary API/SDK",
+    "1700mhz+ boost clock"
   ]
 }
+
 
 
 
