@@ -2,7 +2,7 @@
   "img": "nvidia2020.jpg",
   "freeTile": [ "Nvidia" ],
   "lines": [
-    "350W+",
+    "TDP 350W+",
     "$1999+",
     "$799-$1000",
     "$1399-$1600",
@@ -20,15 +20,12 @@
     "Quadro announced",
     "Jensen @ Home",
     "XXX was WRONG!",
-    "Dedicated Raytracing chip",
+    "Dedicated raytracing chip",
     "Cyberpunk 2077 demo",
-    "PLACEHOLDER",
-    "PLACEHOLDER",
-    "PLACEHOLDER",
-    "PLACEHOLDER",
-    "PLACEHOLDER",
-    "PLACEHOLDER",
-    "PLACEHOLDER"
+    "Upgrade your PSU to 800W+",
+    "Collector Edition!",
+    "5376 Cores",
+    "21 TFLOP"
   ]
 }
 
