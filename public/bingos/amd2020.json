@@ -1,0 +1,34 @@
+{
+  "img": "amd2020.jpg",
+  "freeTile": [ "TEAM RED" ],
+  "lines": [
+    "Improved 7nm node",
+    "CPU 20%+ IPC",
+    "Ryzen 10 cores",
+    "Trade blow with RTX 3080",
+    "Trade blow with RTX 3070",
+    "Trade blow with RTX 3090",
+    "50%+ perf/watt gain over RDNA1",
+    "2.2ghz+ GPU clock",
+    "5ghz+ CPU",
+    "Undercut nVidia RTX 30X0 price",
+    "10gb VRAM",
+    "12gb VRAM",
+    "16gb VRAM",
+    "750gb/s+ GPU bandwidth",
+    "Improved or new upscale solution",
+    "DirectStorage implementation",
+    "New GPU feature/API",
+    "Driver talk",
+    "Dr. Lisa Su at home",
+    "300W+ TDP",
+    "80 CU",
+    "Cooler design talk",
+    "Improved video encoder/decoder"
+  ]
+}
+
+
+
+
+
