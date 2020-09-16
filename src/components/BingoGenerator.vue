@@ -41,8 +41,8 @@ export default {
     //   window.removeEventListener("beforeunload", this.preventNav);
     // });
     let restore;
-    if (this.searchParams.get("lines")) {
-      restore = this.decodeList(this.searchParams.get("lines")).map(
+    if (this.searchParams.get("l")) {
+      restore = this.decodeList(this.searchParams.get("l")).map(
         (i) => this.bingoLines[i]
       );
     }
@@ -164,7 +164,7 @@ export default {
         } else {
           this.lines = this.getRandomLines(this.bingoLines, 24);
           this.searchParams.set(
-            "lines",
+            "l",
             this.encodeList(this.lines.map((l) => l.index))
           );
           history.pushState({}, "", "?" + this.searchParams.toString());

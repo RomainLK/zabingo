@@ -6,7 +6,8 @@
     "Backward compatibility boost",
     "Less than $399",
     "$399-450",
-    "$499-550",
+    "$451-499",
+    "More than $499",
     "Jak and Daxter",
     "Konami license",
     "SOCOM",
@@ -19,14 +20,18 @@
     "PS Now news",
     "PS5 menu",
     "Demon's Soul launch title",
-    "Bloodborne",
+    "From Software (not Demon's Soul)",
     "PSVR",
     "Gran Turismo before 2022",
     "Godfall",
     "Resident Evil",
     "Horizon: Forbidden West",
     "Naughty Dog",
-    "Quantic Dream"
+    "Mark Cerny",
+    "Quantic Dream",
+    "Cyberpunk 2077 PS5",
+    "Hideo Kojima",
+    "Launch bundle with game other than Astrobot"
   ]
 }
 
