@@ -1,0 +1,40 @@
+{
+  "img": "rdna2.jpg",
+  "freeTile": [ "Raytraced reflections on stage floor" ],
+  "lines": [
+    "50%+ perf/watt gain over RDNA1",
+    "2.3ghz+ GPU clock",
+    "10gb VRAM",
+    "12gb VRAM",
+    "16gb VRAM",
+    "Upscaling solution",
+    "DirectStorage implementation",
+    "New GPU feature/API",
+    "Driver talk",
+    "300W+ TDP",
+    "80 CU",
+    "Cooler design talk",
+    "Improved video encoder/decoder",
+    "Teased GPU after Zen 3 wasn't biggest",
+    "RX 6700",
+    "RX 6800",
+    "RX 6900",
+    "XT",
+    "XL",
+    "XT + 1 letter",
+    "Liquid cooling",
+    "less than 499$",
+    "499$-749$",
+    "750$-799$",
+    "More than 1000$",
+    "New cache system",
+    "256bits memory bus",
+    "128 ROP",
+    "Raytracing demo"
+  ]
+}
+
+
+
+
+
